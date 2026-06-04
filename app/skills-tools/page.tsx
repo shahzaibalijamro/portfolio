@@ -1,0 +1,51 @@
+import {
+  PageHeader,
+  PageHeaderDescription,
+  PageHeaderHeading,
+} from '@/components/page-header';
+import Pager from '@/components/pager';
+import { Badge } from '@/components/ui/badge';
+import { mySkills } from '@/constants';
+
+const SkillsToolsPage = () => {
+  return (
+    <>
+      <PageHeader>
+        <PageHeaderHeading>Skills & Tools</PageHeaderHeading>
+        <PageHeaderHeading className="mt-2 text-muted-foreground">
+          Learned by coding all night and debugging all day!
+        </PageHeaderHeading>
+        <PageHeaderDescription>
+          As a full-stack Software Engineer, I specialize in building scalable
+          web applications using modern technologies such as Next.js, React, and
+          Tailwind CSS. I'm also expanding my expertise into DevOps and cloud
+          practices to create efficient, maintainable, robust web solutions.
+        </PageHeaderDescription>
+      </PageHeader>
+
+      {/* skills and tools badges */}
+      <div
+        id="badges"
+        className="flex flex-wrap items-center justify-center gap-2 my-4"
+      >
+        {mySkills.map(({ title, icon: Icon }) => (
+          <Badge
+            key={title}
+            className="p-4 py-2 border border-secondary bg-secondary-foreground text-secondary"
+          >
+            <Icon className="mr-2 size-4" />
+            {title}
+          </Badge>
+        ))}
+      </div>
+
+      <Pager
+        prevHref="/projects"
+        nextHref="/experience"
+        prevTitle="Projects"
+        nextTitle="Experience"
+      />
+    </>
+  );
+};
+export default SkillsToolsPage;
