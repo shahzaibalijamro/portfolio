@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'PRISM | Multi-Agent AI Debate Platform',
     slug: 'prism',
-    image: 'https://picsum.photos/seed/prism/1200/720',
+    image: 'https://res.cloudinary.com/dacvedc6z/image/upload/v1780835994/Screenshot_2026-06-07_173528_rpc99n.png',
     tagline:
       'An AI debate platform where multiple LLM agents research, deliberate, challenge each other, and produce a final synthesized answer.',
     overview:
@@ -52,7 +52,7 @@ export const projects = [
   {
     title: 'Pulse | Privacy-Focused Analytics SaaS',
     slug: 'pulse',
-    image: 'https://picsum.photos/seed/pulse/1200/720',
+    image: 'https://res.cloudinary.com/dacvedc6z/image/upload/v1780836185/Screenshot_2026-06-07_174011_slfxgj.png',
     tagline:
       'A lightweight analytics platform providing real-time website insights without compromising user privacy.',
     overview:
@@ -102,7 +102,7 @@ export const projects = [
   {
     title: 'Jamro Tools | All-in-One Utility Platform',
     slug: 'jamro-tools',
-    image: 'https://picsum.photos/seed/jamro-tools/1200/720',
+    image: 'https://res.cloudinary.com/dacvedc6z/image/upload/v1780836235/Screenshot_2026-06-07_174202_yeqbrl.png',
     tagline:
       'A growing collection of hundreds of online utilities built for speed, privacy, and accessibility.',
     overview:
@@ -145,7 +145,7 @@ export const projects = [
   {
     title: 'Luxe | Multi-Vendor Ecommerce Marketplace API',
     slug: 'luxe',
-    image: 'https://picsum.photos/seed/luxe/1200/720',
+    image: 'https://res.cloudinary.com/dacvedc6z/image/upload/v1780836284/Screenshot_2026-06-07_174320_stz9cl.png',
     tagline:
       'A production-grade REST API for a multi-vendor ecommerce platform with seller onboarding, media management, and Stripe payments.',
     overview:
@@ -214,7 +214,7 @@ export const projects = [
   {
     title: 'Session Scribe | AI Meeting Transcription & Summaries',
     slug: 'session-scribe',
-    image: 'https://picsum.photos/seed/session-scribe/1200/720',
+    image: 'https://res.cloudinary.com/dacvedc6z/image/upload/v1780836539/Screenshot_2026-06-07_174454_fqxyrd.png',
     tagline:
       'A modern React frontend for an AI meeting assistant that joins calls, transcribes in real time, and turns conversations into structured notes and insights.',
     overview:
