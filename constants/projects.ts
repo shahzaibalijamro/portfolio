@@ -2,6 +2,7 @@ export const projects = [
   {
     title: 'PRISM | Multi-Agent AI Debate Platform',
     slug: 'prism',
+    image: 'https://picsum.photos/seed/prism/1200/720',
     tagline:
       'An AI debate platform where multiple LLM agents research, deliberate, challenge each other, and produce a final synthesized answer.',
     overview:
@@ -51,6 +52,7 @@ export const projects = [
   {
     title: 'Pulse | Privacy-Focused Analytics SaaS',
     slug: 'pulse',
+    image: 'https://picsum.photos/seed/pulse/1200/720',
     tagline:
       'A lightweight analytics platform providing real-time website insights without compromising user privacy.',
     overview:
@@ -100,6 +102,7 @@ export const projects = [
   {
     title: 'Jamro Tools | All-in-One Utility Platform',
     slug: 'jamro-tools',
+    image: 'https://picsum.photos/seed/jamro-tools/1200/720',
     tagline:
       'A growing collection of hundreds of online utilities built for speed, privacy, and accessibility.',
     overview:
@@ -142,6 +145,7 @@ export const projects = [
   {
     title: 'Luxe | Multi-Vendor Ecommerce Marketplace API',
     slug: 'luxe',
+    image: 'https://picsum.photos/seed/luxe/1200/720',
     tagline:
       'A production-grade REST API for a multi-vendor ecommerce platform with seller onboarding, media management, and Stripe payments.',
     overview:
@@ -210,6 +214,7 @@ export const projects = [
   {
     title: 'Session Scribe | AI Meeting Transcription & Summaries',
     slug: 'session-scribe',
+    image: 'https://picsum.photos/seed/session-scribe/1200/720',
     tagline:
       'A modern React frontend for an AI meeting assistant that joins calls, transcribes in real time, and turns conversations into structured notes and insights.',
     overview:
@@ -265,8 +270,7 @@ export const projects = [
     ],
     feedback: true,
     links: {
-      live: '',
-      github: '',
+      live: 'https://session-scribe-frontend.vercel.app/'
     },
   },
 ];

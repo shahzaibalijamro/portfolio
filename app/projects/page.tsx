@@ -7,6 +7,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { projects } from '@/constants/projects';
+import Image from 'next/image';
 import Link from 'next/link';
 
 const ProjectsPage = () => {
@@ -24,9 +25,20 @@ const ProjectsPage = () => {
           <Card
             title={project.overview}
             key={index}
-            className="relative w-full transition-all duration-300 cursor-pointer isolate hover:scale-105"
+            className="relative w-full overflow-hidden p-0 transition-all duration-300 cursor-pointer isolate hover:scale-105"
           >
-            <CardHeader>
+            {project.image && (
+              <div className="relative w-full aspect-video overflow-hidden border-b">
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  fill
+                  sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
+            )}
+            <CardHeader className="px-6 pt-6">
               <CardTitle className="leading-6">{project.title}</CardTitle>
               <CardDescription className="flex flex-col gap-2">
                 {project.tagline}

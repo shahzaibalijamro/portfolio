@@ -16,6 +16,8 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "**.ufs.sh",
       },
+      { protocol: "https", hostname: "picsum.photos" },
+      { protocol: "https", hostname: "fastly.picsum.photos" },
     ],
   },
   async headers() {
