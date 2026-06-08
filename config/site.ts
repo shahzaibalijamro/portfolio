@@ -25,7 +25,7 @@ export const siteConfig = {
     github: 'https://github.com/shahzaibalijamro',
     githubProfile: 'https://github.com/shahzaibalijamro',
     linkedin: 'https://www.linkedin.com/in/shahzaibalijamro/',
-    resume: 'https://drive.google.com/file/d/1CZ2eknxdwr51Q0qgQr4Vl5-kHruZtnM6/view', // Add your resume link here
+    resume: 'https://drive.google.com/file/d/1ndFub0PNTbo-kdtsXR1QDEXml0gM2E-9/view', // Add your resume link here
     email: 'mailto:shahzaibalijamro@gmail.com',
     githubUsername: 'shahzaibalijamro',
   },
