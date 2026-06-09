@@ -19,6 +19,7 @@ import { setViewsServerAction } from './actions/getAndSetViewsServerAction';
 import { getLoveCountServerAction } from './actions/getAndSetLoveCountServerAction';
 
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: siteConfig.name,
@@ -134,6 +135,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Toaster richColors position="top-center" />
           <Analytics />
           <SpeedInsights />
+          <Script
+            src="https://pulse-steel-two.vercel.app/tracker.js"
+            data-api-key="pk_963dbb6e-71b3-4495-8c09-71ece96f722d"
+            data-endpoint="https://pulse-m7ns.onrender.com/i"
+            strategy="afterInteractive"
+          />
         </body>
       </html>
     </>
