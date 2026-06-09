@@ -160,7 +160,7 @@ export const projects = [
     {
         title: 'Pulse | Privacy-Focused Analytics SaaS',
         slug: 'pulse',
-        image: 'https://res.cloudinary.com/dacvedc6z/image/upload/v1780836185/Screenshot_2026-06-07_174011_slfxgj.png',
+        image: 'https://res.cloudinary.com/dacvedc6z/image/upload/v1781034582/Screenshot_2026-06-10_004843_xuq7ml.png',
         tagline:
             'A lightweight analytics platform providing real-time website insights without compromising user privacy.',
         overview:
@@ -206,7 +206,7 @@ export const projects = [
             github: 'https://github.com/shahzaibalijamro/pulse',
         },
     },
-{
+    {
         title: 'Luxe | Multi-Vendor Ecommerce Marketplace API',
         slug: 'luxe',
         image: 'https://res.cloudinary.com/dacvedc6z/image/upload/v1780836284/Screenshot_2026-06-07_174320_stz9cl.png',
@@ -317,6 +317,6 @@ export const projects = [
             github: 'https://github.com/shahzaibalijamro/jamro-tools',
         },
     },
-    
-    
+
+
 ]
