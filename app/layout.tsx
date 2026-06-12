@@ -137,7 +137,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <SpeedInsights />
           <Script
             src="https://pulse-steel-two.vercel.app/tracker.js"
-            data-api-key="pk_963dbb6e-71b3-4495-8c09-71ece96f722d"
+            data-api-key="pk_f2e024ce-1f0d-43ab-a156-997d1207bea4"
             data-endpoint="https://pulse-m7ns.onrender.com/i"
             strategy="afterInteractive"
           />
