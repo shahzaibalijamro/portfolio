@@ -1,4 +1,50 @@
+
 export const projects = [
+    {
+        title: 'Technipie Chatbot | Full-Stack Context-Aware AI',
+        slug: 'technipie-chatbot',
+        image: 'https://res.cloudinary.com/dacvedc6z/image/upload/v1787310845/WhatsApp_Image_2026-08-21_at_4.13.31_PM_heytri.jpg',
+        tagline:
+            'A full-stack AI chatbot platform combining an interactive web interface with a robust Langchain and MongoDB Atlas backend for semantic vector search.',
+        overview:
+            'The Technipie Chatbot is a comprehensive AI solution that bridges a modern frontend interface with a stateless Node.js Express backend. It leverages Langchain Expression Language (LCEL) and MongoDB Atlas Vector Search to search a custom knowledge base using Google Gemini embeddings. The system processes conversations with conversational memory and dynamic summarization, providing accurate, deterministic responses.',
+        features: [
+            'Interactive web frontend integrated seamlessly with backend APIs',
+            'Semantic vector search using MongoDB Atlas Vector Search',
+            'Langchain LCEL pipeline for standalone question and response generation',
+            'Conversational memory management with automatic threshold summarization',
+            'Stateless backend design supporting Serverless deployments',
+            'Persistent session management via cookies and MongoDB TTL indexes',
+            'IP-based rate limiting persisted in MongoDB',
+            'Detailed internal step logging (chunks retrieved, prompts, etc.)',
+        ],
+        techStack: [
+            'React / Next.js',
+            'Tailwind CSS',
+            'Node.js',
+            'Express.js',
+            'MongoDB Atlas',
+            'Langchain (LCEL)',
+            'Google Gemini (3.5-flash-lite)',
+            'Gemini Embeddings'
+        ],
+        challenges: [
+            'Managing conversational memory state statelessly across Serverless invocations.',
+            'Mitigating LLM context window limits with dynamic conversation summarization.',
+            'Designing a resilient rate limiter that functions across stateless deployments and falls back gracefully on DB errors.',
+            'Orchestrating complex multi-step Langchain pipelines (standalone questions to vector retrieval).'
+        ],
+        learnings: [
+            'Implementing Maximum Marginal Relevance (MMR) for diverse semantic search results.',
+            'Advanced prompt engineering for contextual and deterministic AI behavior.',
+            'Structuring robust, Serverless-ready Node.js APIs with global client caching.',
+            'End-to-end integration of frontend chat flows with streaming/backend AI processes.'
+        ],
+        feedback: true,
+        links: {
+            live: 'https://tech-7-miles.vercel.app'
+        }
+    },
     {
         "title": "Session Scribe | AI Meeting Transcription & Summaries",
         "slug": "session-scribe",
@@ -316,7 +362,5 @@ export const projects = [
             live: 'https://jamro-tools.vercel.app',
             github: 'https://github.com/shahzaibalijamro/jamro-tools',
         },
-    },
-
-
+    }
 ]
