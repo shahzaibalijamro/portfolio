@@ -53,6 +53,20 @@ const ProjectDetails = async ({
 
       <PageHeader>
         <PageHeaderHeading>{project.title}</PageHeaderHeading>
+
+        {project.video && (
+          <div className="w-full my-6">
+            <video
+              src={project.video}
+              controls
+              className="w-full max-w-4xl rounded-lg shadow-md aspect-video bg-muted"
+            />
+            <p className="text-sm text-muted-foreground mt-3 italic border-l-2 border-primary pl-3">
+              Note: Some of these projects utilize free-tier APIs and services that may occasionally experience rate limits or downtime. If the live application is inaccessible, please refer to the video demonstration above.
+            </p>
+          </div>
+        )}
+
         <PageHeaderDescription>{project.tagline}</PageHeaderDescription>
         <PageHeaderDescription>{project.overview}</PageHeaderDescription>
       </PageHeader>

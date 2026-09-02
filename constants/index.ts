@@ -29,6 +29,7 @@ import {
   SiOpenai,
   SiFirebase,
   SiTwilio,
+  SiLangchain
 } from "react-icons/si";
 
 export type Skill = {
@@ -67,4 +68,5 @@ export const mySkills: Skill[] = [
   { title: "Firebase", icon: SiFirebase },
   { title: "Twilio", icon: SiTwilio },
   { title: "MongoDB Compass", icon: SiMongodb },
+  { title: "LangChain", icon: SiLangchain },
 ];

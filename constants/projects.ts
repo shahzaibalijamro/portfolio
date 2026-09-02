@@ -43,10 +43,11 @@ export const projects = [
         feedback: true,
         links: {
             live: 'https://tech-7-miles.vercel.app'
-        }
+        },
+        video: 'https://dms.licdn.com/playlist/vid/v2/D4D05AQHqLuzvlaZV_g/mp4-640p-30fp-crf28/B4DaABcmO4JsB0-/0/1786730675052?e=2147483647&v=beta&t=uJ1dRP5-3YQWy0r_rqBLEIqIS7VoR09yHuoxMYSRdFU'
     },
     {
-        "title": "Session Scribe | AI Meeting Transcription & Summaries",
+        title: "Session Scribe | AI Meeting Transcription & Summaries",
         "slug": "session-scribe",
         "image": "https://res.cloudinary.com/dacvedc6z/image/upload/v1780836539/Screenshot_2026-06-07_174454_fqxyrd.png",
         "tagline": "A full‑stack AI meeting assistant that records calls, transcribes in real time, and turns conversations into structured notes and insights.",
@@ -104,10 +105,11 @@ export const projects = [
         "feedback": true,
         "links": {
             "live": "https://session-scribe-frontend.vercel.app/"
-        }
+        },
+        video: "https://res.cloudinary.com/dacvedc6z/video/upload/v1788392837/session-scribe_moyxmz.mp4"
     },
     {
-        "title": "Interview Portal | AI Hiring & Interview Platform",
+        title: "Interview Portal | AI Hiring & Interview Platform",
         "slug": "interview-portal",
         "image": "https://res.cloudinary.com/dacvedc6z/image/upload/v1780859649/Screenshot_2026-06-08_001326_jxurs3.png",
         "tagline": "A full‑stack, role‑based AI powered hiring platform with Firebase authentication, HR dashboards, job posting and applications handling with AI and candidate analytics.",
@@ -151,7 +153,8 @@ export const projects = [
         "feedback": true,
         "links": {
             "live": "https://interview-portal-frontend-v1.vercel.app/"
-        }
+        },
+        video: "https://res.cloudinary.com/dacvedc6z/video/upload/v1788392851/interview-portal_cny9as.mp4"
     },
     {
         title: 'PRISM | Multi-Agent AI Debate Platform',
@@ -201,6 +204,7 @@ export const projects = [
             live: 'https://prism-web-v1.vercel.app',
             github: 'https://github.com/shahzaibalijamro/prism',
         },
+        video: 'https://dms.licdn.com/playlist/vid/v2/D4D05AQFz74PmA1HOEA/mp4-720p-30fp-crf28/B4DZ7barfIIICM-/0/1781797679237?e=2147483647&v=beta&t=3b9luVVCm0FM4aZ9ho9Rnz4iRePnfe6egR0VcmJ8kxQ'
     },
 
     {
@@ -251,6 +255,7 @@ export const projects = [
             live: 'https://pulse-steel-two.vercel.app',
             github: 'https://github.com/shahzaibalijamro/pulse',
         },
+        video: 'https://dms.licdn.com/playlist/vid/v2/D4D05AQFWYV8JnUKO2w/mp4-720p-30fp-crf28/B4DZ7rukMiIsCU-/0/1782071324239?e=2147483647&v=beta&t=W8A1Fp_jpVN4UtSvM6K4ZjcpSP0AshgF8NAQxf9Rk1Q'
     },
     {
         title: 'Luxe | Multi-Vendor Ecommerce Marketplace API',
@@ -319,6 +324,7 @@ export const projects = [
             live: 'https://luxe-ecommerce-store-v1.vercel.app/',
             github: 'https://github.com/shahzaibalijamro/mastering-nestjs',
         },
+        video: 'https://dms.licdn.com/playlist/vid/v2/D4D05AQFJ4xoXWrIe-Q/mp4-720p-30fp-crf28/B4DZzQLZqzHYCE-/0/1773019184242?e=2147483647&v=beta&t=Hyd6Gy3-BEwANTFgD-gDYHZSrYAOSmHCikp-u1bP6WE'
     },
     {
         title: 'Jamro Tools | All-in-One Utility Platform',
