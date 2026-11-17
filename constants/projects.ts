@@ -3,7 +3,7 @@ export const projects = [
     {
         title: 'Waqt | Flutter Prayer Times App',
         slug: 'waqt',
-        image: 'https://raw.githubusercontent.com/shahzaibalijamro/waqt/main/screenshots/home_screen.png',
+        image: 'https://res.cloudinary.com/dacvedc6z/image/upload/v1794892890/home_screen_mxvwth.png',
         tagline:
             'A mobile-first prayer-times app that helps users quickly check daily salah timings, browse monthly calendars, and personalize prayer settings.',
         overview:
