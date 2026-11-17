@@ -1,6 +1,52 @@
 
 export const projects = [
     {
+        title: 'Waqt | Flutter Prayer Times App',
+        slug: 'waqt',
+        image: 'https://raw.githubusercontent.com/shahzaibalijamro/waqt/main/screenshots/home_screen.png',
+        tagline:
+            'A mobile-first prayer-times app that helps users quickly check daily salah timings, browse monthly calendars, and personalize prayer settings.',
+        overview:
+            'Waqt is my first mobile application and an early Flutter project focused on real-world utility. The app lets users search for a city, view today’s prayer schedule with the next prayer highlighted, browse the monthly prayer calendar, and adjust calculation and Asr methods to fit local practice. It uses AlAdhan for accurate prayer data and Open-Meteo geocoding for location search, with a clean mobile-first interface built in Flutter and Dart.',
+        features: [
+            'Daily prayer times with the next prayer highlighted',
+            'Location search and city selection',
+            'Monthly prayer calendar view',
+            'Customizable prayer calculation settings',
+            'Asr method selection based on local preferences',
+            'Clean, mobile-first Flutter UI',
+            'Persistent local settings via shared preferences',
+        ],
+        techStack: [
+            'Flutter',
+            'Dart',
+            'GetX',
+            'Material 3',
+            'HTTP',
+            'Shared Preferences',
+            'AlAdhan API',
+            'Open-Meteo Geocoding',
+            'Google Fonts',
+        ],
+        challenges: [
+            'Learning mobile app architecture and state management in Flutter.',
+            'Designing a clear prayer interface that works well on smaller screens.',
+            'Integrating external prayer and geocoding APIs while keeping the app responsive.',
+            'Managing location and user settings across sessions in a lightweight app.',
+        ],
+        learnings: [
+            'Building a complete mobile app from concept to working product in Flutter.',
+            'Working with API-driven mobile data and responsive state management.',
+            'Designing for practical daily-use UX rather than just visual polish.',
+            'Using local persistence to create a personalized prayer experience.',
+        ],
+        feedback: false,
+        links: {
+            github: 'https://github.com/shahzaibalijamro/waqt',
+            live: 'https://github.com/shahzaibalijamro/waqt/releases',
+        },
+    },
+    {
         title: 'ClientScope | Spec-Driven, AI-Assisted Development',
         slug: 'clientscope',
         image: 'https://res.cloudinary.com/dacvedc6z/image/upload/v1789676615/clientscope-portfolio/v1/clientscope-my-work.png',
