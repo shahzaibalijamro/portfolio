@@ -101,6 +101,7 @@ export const projects = [
             github: 'https://github.com/shahzaibalijamro/waqt',
             live: 'https://github.com/shahzaibalijamro/waqt/releases',
         },
+        video: 'https://res.cloudinary.com/dacvedc6z/video/upload/v1795145824/output_progressive_4205da57-3d0d-45f5-88ce-90064509771e_uboglt.mp4',
     },
     {
         title: 'ClientScope | Spec-Driven, AI-Assisted Development',
@@ -206,7 +207,7 @@ export const projects = [
         links: {
             live: 'https://tech-7-miles.vercel.app'
         },
-        video: 'https://dms.licdn.com/playlist/vid/v2/D4D05AQHqLuzvlaZV_g/mp4-640p-30fp-crf28/B4DaABcmO4JsB0-/0/1786730675052?e=2147483647&v=beta&t=uJ1dRP5-3YQWy0r_rqBLEIqIS7VoR09yHuoxMYSRdFU'
+        video: 'https://res.cloudinary.com/dacvedc6z/video/upload/v1795145809/output_progressive_cbd56f61-8e77-4499-a075-b2f0cb839865_pvczm7.mp4'
     },
     {
         title: "Session Scribe | AI Meeting Transcription & Summaries",
@@ -366,7 +367,7 @@ export const projects = [
             live: 'https://prism-web-v1.vercel.app',
             github: 'https://github.com/shahzaibalijamro/prism',
         },
-        video: 'https://dms.licdn.com/playlist/vid/v2/D4D05AQFz74PmA1HOEA/mp4-720p-30fp-crf28/B4DZ7barfIIICM-/0/1781797679237?e=2147483647&v=beta&t=3b9luVVCm0FM4aZ9ho9Rnz4iRePnfe6egR0VcmJ8kxQ'
+        video: 'https://res.cloudinary.com/dacvedc6z/video/upload/v1795145810/output_progressive_b82dbe8f-c56b-436b-b359-edc3be9c143a_kiyzbf.mp4'
     },
 
     {
@@ -417,7 +418,7 @@ export const projects = [
             live: 'https://pulse-steel-two.vercel.app',
             github: 'https://github.com/shahzaibalijamro/pulse',
         },
-        video: 'https://dms.licdn.com/playlist/vid/v2/D4D05AQFWYV8JnUKO2w/mp4-720p-30fp-crf28/B4DZ7rukMiIsCU-/0/1782071324239?e=2147483647&v=beta&t=W8A1Fp_jpVN4UtSvM6K4ZjcpSP0AshgF8NAQxf9Rk1Q'
+        video: 'https://res.cloudinary.com/dacvedc6z/video/upload/v1795145808/output_progressive_3eaa0c80-3c6a-4fb2-9c64-524e7b9f7468_llwrbk.mp4'
     },
     {
         title: 'Luxe | Multi-Vendor Ecommerce Marketplace API',
