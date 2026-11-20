@@ -1,5 +1,61 @@
 
 export const projects = [
+        {
+        title: 'Nimbus Weather | Full-Stack Weather Intelligence App',
+        slug: 'nimbus-weather',
+        image: 'https://res.cloudinary.com/dacvedc6z/image/upload/v1795144743/detailed_city_aqed00.png',
+        tagline:
+            'A full-stack weather intelligence mobile app combining a reactive Flutter client with a Node.js/Express backend, Supabase PostgreSQL persistence, and live Open-Meteo forecasts.',
+        overview:
+            'Nimbus Weather is a production-grade full-stack mobile application that delivers real-time meteorological observations, multi-day forecasts, and regional city exploration. Designed with clean separation of concerns, the app pairs a reactive Flutter client powered by GetX with a custom Node.js and Express backend backed by Supabase PostgreSQL. The system integrates Open-Meteo for live atmospheric data, normalized into standardized condition schemas and cached in-memory with a 15-minute TTL to minimize redundant network calls. Features include global city discovery, debounced search, detailed atmospheric metrics (UV index, wind speed, surface pressure, humidity), persistent cloud-synchronized favorites with user notes, and secure JWT-based authentication.',
+        features: [
+            'Real-time meteorological tracking for temperature, feels-like, humidity, wind velocity, surface pressure, and UV index',
+            'Hourly atmospheric trends and 5-day daily forecasts powered by Open-Meteo',
+            'Regional discovery covering global metropolitan hubs across Asia, Europe, the Middle East, and the Americas',
+            'Debounced live city search with instant temperature and condition previews',
+            'Persistent cloud-synchronized favorites with custom user notes backed by Supabase PostgreSQL',
+            'Secure JWT authentication with bcrypt password hashing and persistent local session recovery',
+            'Server-side in-memory TTL caching (15-minute window) to prevent upstream API throttling',
+            'WMO meteorological code normalization into custom condition schemas and matching UI vectors',
+            'Reactive MVC architecture using GetX observables (Rx/Obx) for minimal widget rebuilds',
+            'Mobile-first UI crafted with Skeletonizer loading states, Phosphor icons, and Google Fonts typography',
+        ],
+        techStack: [
+            'Flutter',
+            'Dart',
+            'GetX',
+            'Node.js',
+            'Express.js',
+            'PostgreSQL',
+            'Supabase',
+            'Open-Meteo API',
+            'JWT',
+            'bcryptjs',
+            'Skeletonizer',
+            'Shared Preferences',
+            'Phosphor Icons',
+            'Google Fonts',
+        ],
+        challenges: [
+            'Architecting an end-to-end full-stack workflow connecting a Flutter mobile client with a custom Node.js/Express API and Supabase PostgreSQL.',
+            'Normalizing raw WMO meteorological codes from Open-Meteo into consistent condition schemas and matching vector icons.',
+            'Implementing server-side in-memory TTL caching to prevent upstream rate limits while ensuring fresh weather data.',
+            'Managing authenticated state and route guards seamlessly across GetX controllers with persistent local token recovery.',
+            'Handling complex relational data and cascading constraints for user-specific favorite cities and personal notes.',
+        ],
+        learnings: [
+            'Building a complete full-stack mobile system from backend relational schema to mobile client presentation.',
+            'Decoupling UI layers from business logic using reactive GetX controllers and granular rebuild patterns.',
+            'Implementing resilient API caching and graceful offline fallback strategies for external services.',
+            'Securing REST endpoints with stateless JWT authentication and bcrypt password hashing.',
+            'Structuring relational schemas on Supabase PostgreSQL with B-Tree indexes and cascading foreign keys.',
+        ],
+        feedback: true,
+        links: {
+            github: 'https://github.com/shahzaibalijamro/nimbus_weather_app',
+            live: 'https://github.com/shahzaibalijamro/nimbus_weather_app/releases',
+        },
+    },
     {
         title: 'Waqt | Flutter Prayer Times App',
         slug: 'waqt',
